@@ -117,3 +117,29 @@ input::placeholder {
     align-items: center;
     color: #BBBBBB;
 }
+
+/*--------------------------category-header-----------------------------*/
+
+.category-header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+.category-header ul li {
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 160%;
+    /* or 21px */
+    display: flex;
+    align-items: center;
+    color: #294C7A;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
