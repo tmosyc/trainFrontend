@@ -77,7 +77,6 @@ header {
 .grid-headertext {
     grid-column: 2/3;
     grid-row: 1/2;
-    /*background-color: antiquewhite;*/
     margin-left: 20px;
 }
 
@@ -89,7 +88,7 @@ header {
 .grid-search {
     grid-column: 4/5;
     grid-row: 1/2;
-    display: flex; /* コンテナをフレックスコンテナ化 */
+    display: flex; 
     align-items: center;
 }
 
@@ -118,40 +117,3 @@ input::placeholder {
     align-items: center;
     color: #BBBBBB;
 }
-
-.search-img {
-
-}
-
-
-
-
-
-
-
-  
-
-
-
-
-/* header-container */
-/*
-position: absolute;
-width: 1126px;
-height: 75px;
-left: 175px;
-top: 0px;
-*/
-
-
-
-/* main-header */
-
-/*
-position: absolute;
-width: 1125px;
-height: 13px;
-left: 0px;
-top: 52px;
-*/
-
