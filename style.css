@@ -84,7 +84,7 @@ header {
   grid-row: 1/2;
 }
 
-.search-form {
+.search-form_input {
   grid-column: 4/5;
   grid-row: 1/2;
   display: flex;
@@ -96,12 +96,12 @@ header {
   grid-row: 2/3;
 }
 
-.keyword-form {
+.keyword-form_input {
   border-radius: 2px;
   width: 250px;
 }
 
-.keyword-form::placeholder {
+.keyword-form_input::placeholder {
   position: absolute;
   width: 228px;
   height: 25px;
@@ -119,7 +119,7 @@ header {
 
 /*--------------------------category-header-----------------------------*/
 
-.category-header .pressrelease-category {
+.pressrelease-category {
   display: flex;
   list-style: none;
   margin: 0;
@@ -128,7 +128,7 @@ header {
   justify-content: center;
 }
 
-.category-header .pressrelease-category .pressrelease-category-name {
+.pressrelease-category-name {
   font-family: "Hiragino Kaku Gothic ProN";
   font-style: normal;
   font-weight: 700;
