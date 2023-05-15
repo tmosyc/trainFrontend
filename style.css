@@ -350,11 +350,61 @@ main {
 }
 
 .main-keyword-menu-element {
-  /* margin-right: 15px; */
   margin-top: 3px;
   border-radius: 11px;
   font-size: 12px;
   background-color: #f1f1f1;
   color: #3b3b3b;
   padding: 3px 9px;
+}
+
+/*------------footer------------*/
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  height: 430px;
+}
+
+.footer-frame {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 12px;
+  line-height: 12px;
+  color: #797979;
+  margin-top: 80px;
+  gap: 20px;
+}
+
+.footer-upper {
+  display: flex;
+  gap: 100px;
+  border-bottom-color: #e0e0e0;
+  border-bottom-width: 1px;
+}
+
+.footer-lower {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-upper-title {
+  font-size: 13px;
+  color: #000000;
+}
+
+.footer-upper-text {
+  margin-bottom: 25px;
+}
+
+.footer-upper-clipping {
+  margin-top: 35px;
+}
+
+.footer-lower-text {
+  display: inline;
+  margin-right: 70px;
 }
