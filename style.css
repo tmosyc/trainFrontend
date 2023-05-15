@@ -223,7 +223,7 @@ main {
 .main-container {
   display: grid;
   grid-template-columns: 800px;
-  grid-template-rows: 35px 80px 550px 100px;
+  grid-template-rows: 35px 80px 575px 100px;
 }
 
 .main-title {
